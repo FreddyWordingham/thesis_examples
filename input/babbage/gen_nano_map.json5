@@ -1,16 +1,10 @@
 {
     ops: [
-        [
-            "unit",
-            { Unit  : [101, 101, 101] }
-        ],
-        [
-            "nano",
-            { Mult    : ["../output/unit.nc", 1.0e-9] }
-        ],
-        [
-            "info",
-            { Info    : "../output/nano.nc" }
-        ]
+        [   "unit",                             // Output filename.
+            { Unit  : [101, 101, 101] } ],      // Create new black cube.
+        [   "nano",                             // Scale the value to one nanometer/s.
+            { Mult  : ["../output/unit.nc", 1.0e-9] } ],
+        [   "info",
+            { Info  : "../output/nano.nc" } ]   // Analyse the file.
     ]
 }

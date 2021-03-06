@@ -1,10 +1,10 @@
 {
     ops: [
-        [   "point",                            // Create new point cube.
+        [   "point",                                // Create new point cube.
             { Point : [101, 101, 101] } ],
-        [   "nano",                             // Scale the value to fifty.
-            { Mult  : ["../output/unit.nc", 1.0e-9] } ],
+        [   "point_50",                             // Scale the value to fifty.
+            { Mult  : ["../output/point.nc", 50.0] } ],
         [   "info",
-            { Info  : "../output/nano.nc" } ]   // Analyse the file.
+            { Info  : "../output/point_50.nc" } ]   // Analyse the file.
     ]
 }
