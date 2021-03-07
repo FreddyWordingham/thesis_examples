@@ -1,17 +1,17 @@
 {
     sett    : { Here    : {
-        time        :   1800,                   // Time (s).
-        dumps       :   7,                     // Intermediate dumps.
+        time        :   18,                   // Time (s).
+        dumps       :   7,                      // Intermediate dumps.
         quality     :   0.9,                    // Quality parameter.
         block_size  :   1e4,                    // Block size.
     } },
     grid    : { Here    : {
         boundary: {                             // Boundary limits.
-            mins: [ 0.0e-3,  0.0e-3,  0.0e-3],  // Minimum bound.
-            maxs: [10.0e-3, 10.0e-3, 10.0e-3],  // Maximum bound.
+            mins: [ 0.0,  0.0,  0.0],  // Minimum bound.
+            maxs: [10.0, 10.0, 10.0],  // Maximum bound.
         },
-        res: [101, 101, 101],                   // Grid resolution in [x,y,z].
+        res: [100, 100, 100],                   // Grid resolution in [x,y,z].
     } },
     init    : "misc/map/cube_100.nc",           // Initial value map.
-    coeffs  : "misc/map/nano.nc",               // Diffusion coefficient map.
+    coeffs  : "misc/map/tenth.nc",              // Diffusion coefficient map.
 }

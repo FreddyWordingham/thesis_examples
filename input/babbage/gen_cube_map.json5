@@ -2,9 +2,9 @@
     ops: [
         [   "cube",                                     // Create new point cube.
             { Fill  : {
-                res     : [101, 101, 101],
-                mins    : [40, 40, 40],
-                maxs    : [60, 60, 60]
+                res     : [100, 100, 100],
+                mins    : [ 25,  25,  25],
+                maxs    : [ 75,  75,  75]
             } }
         ],
         [   "norm_cube",                                // Normalise values.

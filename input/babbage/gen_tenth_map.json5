@@ -1,0 +1,10 @@
+{
+    ops: [
+        [   "unit",                             // Output filename.
+            { Unit  : [100, 100, 100] } ],      // Create new black cube.
+        [   "tenth",                            // Scale the value to one-tenth/s.
+            { Mult  : ["../output/unit.nc", 0.1] } ],
+        [   "info",
+            { Info  : "../output/tenth.nc" } ]   // Analyse the file.
+    ]
+}
