@@ -1,0 +1,8 @@
+{
+    ops: [
+        [   "unit",                             // Output filename.
+            { Unit  : [101, 101, 101] } ],      // Create new black cube.
+        [   "info",
+            { Info  : "../output/unit.nc" } ]       // Analyse the file.
+    ]
+}
