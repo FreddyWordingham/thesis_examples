@@ -12,6 +12,6 @@
         },
         res: [101, 101, 101],                   // Grid resolution in [x,y,z].
     } },
-    init    : "misc/map/point_50.nc",           // Initial value map.
+    init    : "misc/map/cube_100.nc",           // Initial value map.
     coeffs  : "misc/map/nano.nc",               // Diffusion coefficient map.
 }

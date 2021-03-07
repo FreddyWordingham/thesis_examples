@@ -1,0 +1,37 @@
+
+{
+    ops: [
+        [
+            "info",
+            { Info    : "../output/diffuse/point_test/000_diff.nc" }
+        ],
+        [
+            "info",
+            { Info    : "../output/diffuse/point_test/001_diff.nc" }
+        ],
+        [
+            "info",
+            { Info    : "../output/diffuse/point_test/002_diff.nc" }
+        ],
+        [
+            "info",
+            { Info    : "../output/diffuse/point_test/005_diff.nc" }
+        ],
+        [
+            "info",
+            { Info    : "../output/diffuse/point_test/010_diff.nc" }
+        ],
+        [
+            "info",
+            { Info    : "../output/diffuse/point_test/020_diff.nc" }
+        ],
+        [
+            "info",
+            { Info    : "../output/diffuse/point_test/050_diff.nc" }
+        ],
+        [
+            "info",
+            { Info    : "../output/diffuse/point_test/099_diff.nc" }
+        ]
+    ]
+}

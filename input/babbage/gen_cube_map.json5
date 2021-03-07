@@ -1,0 +1,17 @@
+{
+    ops: [
+        [   "cube",                                     // Create new point cube.
+            { Fill  : {
+                res     : [101, 101, 101],
+                mins    : [40, 40, 40],
+                maxs    : [60, 60, 60]
+            } }
+        ],
+        [   "norm_cube",                                // Normalise values.
+            { Norm  : "../output/cube.nc" } ],
+        [   "cube_100",                                 // Scale the total to one-hundred.
+            { Mult  : ["../output/norm_cube.nc", 100.0] } ],
+        [   "info",
+            { Info  : "../output/cube_100.nc" } ]       // Analyse the file.
+    ]
+}
