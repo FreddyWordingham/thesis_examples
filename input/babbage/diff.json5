@@ -3,8 +3,13 @@
         [
             "temp",
             { Remove   : [
+<<<<<<< HEAD
                 "../output/diffuse/point_test/008_diff.nc",
                 "../output/reactor/diffusion_test/008_{A}_diff.nc"
+=======
+                "../output/diffuse/point_test/point_test/004_diff.nc",
+                "../output/reactor/diffusion_test/004_{A}_diff.nc"
+>>>>>>> a35440171b38b534f03f48c907657d113097ded4
                 ] }
         ],
         [
