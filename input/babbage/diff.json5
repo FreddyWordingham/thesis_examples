@@ -1,0 +1,15 @@
+{
+    ops: [
+        [
+            "temp",
+            { Remove   : [
+                "../output/diffuse/point_test/point_test/004_diff.nc",
+                "../output/reactor/diffusion_test/004_{A}_diff.nc"
+                ] }
+        ],
+        [
+            "info",
+            { Info    : "../output/temp.nc" }
+        ]
+    ]
+}
