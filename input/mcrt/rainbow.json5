@@ -1,6 +1,6 @@
 {
     tree        : { There   : 'misc/tree/t5_d6.json5' },
-    grid        : { There   : 'misc/grid/10mm_201.json5' },
+    grid        : { There   : 'misc/grid/20mm_101.json5' },
     engine      : "Standard",
     sett        : { Here    : {
         num_phot            : 1e7,
@@ -12,7 +12,7 @@
     } },
     light       : { Here    : {
         power   : 1.0,
-        emit    : { Surface: [['res/objs/rainbow/light.obj'], { scale: 1e-3 } ] },
+        emit    : { Surface: [['res/objs/rainbow/plane.obj'], { scale: 1e-3, trans: [0, 0, -2.0e-3] } ] },
         spec    : { Here: {
             Uniform : [
                 440e-9, 700e-9,
@@ -26,16 +26,21 @@
     } },
     attrs       : { Here    : {
             water   : { Interface   : ['water', 'air'] },
-            imager  : { Imager  : ['img', [1080, 1080], 4.0e-3, [-3.0e-3, 0, 0], [1, 0, 0]] },
+            imager_a: { Imager  : ['img_a', [1080, 1080], 8.0e-3, [0, 0, -3.0e-3], [0, 0, 1]] },
+            imager_b: { Imager  : ['img_b', [1080, 1080], 8.0e-3, [0, 0, -3.0e-3], [0, 0, 1]] },
     } },
     surfs       : { Here    : {
         raindrop : {
             attr: 'water',
-            mesh: [["res/objs/rainbow/smooth_sphere.obj"], { scale: 1.0e-3 } ]
+            mesh: [["res/objs/rainbow/sphere.obj"], { scale: 1.0e-3 } ]
         },
-        screen      : {
-            attr: 'imager',
-            mesh: [["res/objs/rainbow/screen.obj"], { trans:[-2.45e-3, 0.0, 0.0], scale: 4.0e-3 } ]
+        screen_a    : {
+            attr: 'imager_a',
+            mesh: [["res/objs/rainbow/plane.obj"], { trans:[0, 0, -3.0e-3], scale: 8.0e-3 } ]
+        },
+        screen_b    : {
+            attr: 'imager_b',
+            mesh: [["res/objs/rainbow/plane.obj"], { trans:[0, 0, 3.0e-3], scale: 8.0e-3 } ]
         }
     } },
 }
