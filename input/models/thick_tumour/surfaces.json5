@@ -64,5 +64,10 @@
     base    : {
         attr: 'SF_to_tumour',
         mesh: [["res/objs/thick_tumour/base.obj"], {scale:1.0e-3}]
+    },
+
+    spectrometer    : {
+        attr: 'spectro',
+        mesh: [["res/objs/pdt/detector.obj"], {scale:0.1e-3, trans:[0, 0, -2.0e-3]}]
     }
 }
