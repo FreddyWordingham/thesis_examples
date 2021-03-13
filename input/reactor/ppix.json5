@@ -1,5 +1,5 @@
 {
-    grid    : { There   : 'misc/grid/8mm_80.json5' },
+    grid    : { There   : 'misc/grid/8mm_40.json5' },
     sett    : { Here    : {
         time            :   10800.0,    // Total integration time (s).
         dumps           :   98,         // Intermient outputs.
@@ -10,18 +10,18 @@
         min_time        :   1.0e-9,     // Minimum reaction time step size (s).
     } },
     coeffs_values_sources   : { Here    : {
-        "ALA"   :   [
+        "ala"   :   [
             "res/maps/ala_diff.nc",
             "res/maps/ala_init.nc",
             null
         ],
-        // "O2"    :   [
-        //     "res/map/o2_diff_map.nc",
+        // "oxy"    :   [
+        //     "res/maps/oxy_diff_map.nc",
         //     null,
-        //     "res/map/o2_source_map.nc"
+        //     "res/maps/oxy_source_map.nc"
         // ],
-        // "PpIX"  :   [
-        //     "misc/map/skin.nc",
+        // "ppix"  :   [
+        //     "res/maps/ppix_diff.nc",
         //     null,
         //     null
         // ],
