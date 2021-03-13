@@ -1,0 +1,11 @@
+{
+    grid    : { There   : 'misc/grid/8mm_80.json5' },
+    sett    : { Here    : {
+        time        :   10800,  // 30 min.
+        dumps       :   98,
+        block_size  :   1e4,
+        quality     :   0.2,
+    } },
+    coeffs  : "res/maps/ala_diff.nc",
+    init    : "res/maps/ala_init.nc",
+}
