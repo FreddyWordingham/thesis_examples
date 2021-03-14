@@ -1,7 +1,7 @@
 {
-    grid    : { There   : 'misc/grid/8mm_40.json5' },
+    grid    : { There   : 'misc/grid/8mm_master.json5' },
     sett    : { Here    : {
-        time        :   10800,  // 30 min.
+        time        :   10800,
         dumps       :   98,
         block_size  :   1e3,
         quality     :   0.2,
