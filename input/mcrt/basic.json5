@@ -11,7 +11,7 @@
         roulette_barrels    : 8,
     } },
     light   : { There   : 'models/pdt/light.json5' },
-    mats    : { There   : 'models/tumour/materials.json5' },
-    attrs   : { There   : 'models/tumour/attributes.json5' },
-    surfs   : { There   : 'models/tumour/surfaces.json5' },
+    mats    : { There   : 'models/basic/materials.json5' },
+    attrs   : { There   : 'models/basic/attributes.json5' },
+    surfs   : { There   : 'models/basic/surfaces.json5' },
 }
