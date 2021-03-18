@@ -1,5 +1,5 @@
 {   // List of material resources used.
-    air     : { There    : 'misc/mats/misc/air.json5' },
-    dermis  : { There    : 'misc/mats/skin/dermis.json5' },
-    tumour  : { There    : 'misc/mats/skin/tumour.json5' }
+    air     : { There    : 'res/mats/misc/air.json5' },
+    dermis  : { There    : 'res/mats/skin/dermis.json5' },
+    tumour  : { There    : 'res/mats/skin/bcc_nodular.json5' }
 }
