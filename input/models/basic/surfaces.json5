@@ -1,0 +1,14 @@
+{   // Map of surface attributes.
+    layer_0 : {
+        attr: 'air_to_dermis',
+        mesh: [["res/objs/basic/L0.obj"], {scale:1.0e-3}]
+    },
+    cap     : {
+        attr: 'air_to_tumour',
+        mesh: [["res/objs/basic/cap.obj"], {scale:1.0e-3}]
+    },
+    base    : {
+        attr: 'dermis_to_tumour',
+        mesh: [["res/objs/basic/base.obj"], {scale:1.0e-3}]
+    }
+}

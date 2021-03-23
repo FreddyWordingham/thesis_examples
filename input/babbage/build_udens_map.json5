@@ -2,13 +2,21 @@
 {
     ops: [
         [
-            "scaled_udens",
-            { Mult      : ["../output/mcrt/thick_tumour/absorption_density.nc", 1.0] }
+            "udens",
+            { Div          : ["../output/mcrt/tumour/absorption_density.nc", 4.848e6] }
         ],
         [
-            "scaled_udens",
-            { Mult      : ["../output/mcrt/thick_tumour/absorption_density.nc", 1.0] }
+            "oxy_init",
+            { Div          : ["../output/oxy_init.nc", 388.6] }
         ],
+        [
+            "ppix_init",
+            { Div          : ["../output/ppix_init.nc", 1.107e16] }
+        ],
+        // [
+        //     "udens",
+        //     { PiecewiseMult : ["../output/abs.nc", "../output/dist.nc"] }
+        // ],
         [
             "info",
             { Info    : "../output/udens.nc" }

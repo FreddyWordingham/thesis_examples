@@ -1,0 +1,5 @@
+{   // Surface attributes.
+    air_to_dermis       : { Interface   : ['dermis',    'air'] },
+    air_to_tumour       : { Interface   : ['tumour',    'air'] },
+    dermis_to_tumour    : { Interface   : ['tumour',    'dermis'] }
+}
