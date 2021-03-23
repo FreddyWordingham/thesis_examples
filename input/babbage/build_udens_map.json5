@@ -1,0 +1,17 @@
+
+{
+    ops: [
+        [
+            "scaled_udens",
+            { Mult      : ["../output/mcrt/thick_tumour/absorption_density.nc", 1.0] }
+        ],
+        [
+            "scaled_udens",
+            { Mult      : ["../output/mcrt/thick_tumour/absorption_density.nc", 1.0] }
+        ],
+        [
+            "info",
+            { Info    : "../output/udens.nc" }
+        ]
+    ]
+}

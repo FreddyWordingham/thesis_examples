@@ -15,17 +15,17 @@
             "res/maps/ala_init.nc",
             null
         ],
-        // "oxy"    :   [
-        //     "res/maps/oxy_diff_map.nc",
-        //     null,
-        //     "res/maps/oxy_source_map.nc"
-        // ],
-        // "ppix"  :   [
-        //     "res/maps/ppix_diff.nc",
-        //     null,
-        //     null
-        // ],
+        "oxy"    :   [
+            "res/maps/oxy_diff.nc",
+            "res/maps/oxy_init.nc",
+            "res/maps/oxy_source.nc"
+        ],
+        "ppix"  :   [
+            "res/maps/zeros.nc",
+            "res/maps/ppix_init.nc",
+            null
+        ],
     } },
     multipliers : "res/maps/multipliers.nc",
-    reactor: { There    : "misc/reactor/ppix.json5" }
+    reactor: { There    : "misc/reactor/pdt.json5" }
 }
