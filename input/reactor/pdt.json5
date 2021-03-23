@@ -1,5 +1,5 @@
 {
-    grid    : { There   : 'misc/grid/8mm_master.json5' },
+    grid    : { There   : "misc/grid/8mm_master.json5" },
     sett    : { Here    : {
         time            :   108.0,
         dumps           :   98,
@@ -34,5 +34,5 @@
         ],
     } },
     multipliers : "res/maps/multipliers.nc",
-    reactor: { There    : 'misc/reactor/pdt.json5' }
+    reactor: { There    : "misc/reactor/pdt.json5" }
 }

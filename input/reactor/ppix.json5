@@ -27,5 +27,5 @@
         // ],
     } },
     multipliers : "res/maps/multipliers.nc",
-    reactor: { There    : 'misc/reactor/ppix.json5' }
+    reactor: { There    : "misc/reactor/ppix.json5" }
 }

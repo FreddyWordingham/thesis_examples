@@ -1,0 +1,7 @@
+[
+    {   /// Char time: 1 min.
+        rate        : [0.0166666667,    [["ala", 1], ["fe", 1]]],
+        reactants   : [["ppix", 1], ["fe", 1]],
+        products    : [["haem", 1]],
+    },
+]
