@@ -1,0 +1,11 @@
+{
+    skin : {
+        attr: 'air__into__flesh',
+        mesh: [["res/objs/thermal/skin.obj"], {scale:1.0e-3}]
+    },
+    tumour : {
+        // attr: 'flesh__into__gnr_infused_tumour',    // !Free parameter!
+        attr: 'flesh__into__plain_tumour',          // -Alternative
+        mesh: [["res/objs/thermal/tumour.obj"], {scale:1.0e-3}]
+    }
+}

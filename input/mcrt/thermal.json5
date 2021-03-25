@@ -1,15 +1,9 @@
 {
     tree        : { There   : 'misc/tree/t5_d8.json5' },
-    grid        : { Here    : {
-            boundary: {
-                mins: [-10.0e-3, -10.0e-3, -19.0e-3],
-                maxs: [ 10.0e-3,  10.0e-3,   1.0e-3],
-            },
-            res: [200, 200, 200],
-    } },
+    gird        : { There   : 'misc/tree/thermal_full.json5' },
     engine      : "Standard",
     sett        : { Here    : {
-        num_phot            : 1e6,
+        num_phot            : 1e8,
         block_size          : 1e5,
         bump_dist           : 1e-9,
         loop_limit          : 1e6,
@@ -22,29 +16,7 @@
         spec    : { Here    : { Point: 800.0e-9 } },
         mat     : "air"
     } },
-    mats    : { Here    : {
-        air                     : { There    : 'res/mats/misc/air.json5' },
-        healthy_tissue          : { There    : 'res/mats/thermal/healthy_tissue.json5' },
-        tumour_tissue           : { There    : 'res/mats/thermal/tumour_tissue.json5' },
-        tumour_tissue_plus_GNRs : { There    : 'res/mats/thermal/tumour_tissue_plus_GNRs.json5' }
-    } },
-    attrs   : { Here    : {
-        air__into__flesh                : {
-            Interface   : ['healthy_tissue',            'air']},
-        flesh__into__plain_tumour       : {
-            Interface   : ['tumour_tissue_plus_GNRs',   'healthy_tissue']},
-        flesh__into__gnr_infused_tumour : {
-            Interface   : ['tumour_tissue',             'healthy_tissue']},
-    } },
-    surfs   : { Here    : {
-        skin : {
-            attr: 'air__into__flesh',
-            mesh: [["res/objs/thermal/skin.obj"], {scale:1.0e-3}]
-        },
-        tumour : {
-            attr: 'flesh__into__gnr_infused_tumour',    // !Free parameter!
-        //  attr: 'flesh__into__plain_tumour',          // -Alternative
-            mesh: [["res/objs/thermal/tumour.obj"], {scale:1.0e-3}]
-        }
-    } }
+    mats    : { There   : 'models/thermal/materials.json5' },
+    attrs   : { There   : 'models/thermal/attributes.json5' },
+    surfs   : { There   : 'models/thermal/surfaces.json5' },
 }

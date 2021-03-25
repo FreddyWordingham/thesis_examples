@@ -1,0 +1,6 @@
+{
+    air                     : { There    : 'res/mats/misc/air.json5' },
+    healthy_tissue          : { There    : 'res/mats/thermal/healthy_tissue.json5' },
+    tumour_tissue           : { There    : 'res/mats/thermal/tumour_tissue.json5' },
+    tumour_tissue_plus_GNRs : { There    : 'res/mats/thermal/tumour_tissue_plus_GNRs.json5' }
+}

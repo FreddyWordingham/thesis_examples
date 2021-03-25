@@ -1,0 +1,7 @@
+{   // Sampling grid settings.
+    boundary: {
+        mins: [-10.0e-3, -10.0e-3, -10.0e-3],
+        maxs: [ 10.0e-3,  10.0e-3,  10.0e-3]
+    },
+    res: [200, 200, 200]
+}

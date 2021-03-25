@@ -1,0 +1,8 @@
+{
+    air__into__flesh                : {
+        Interface   : ['healthy_tissue',            'air']},
+    flesh__into__plain_tumour       : {
+        Interface   : ['tumour_tissue',             'healthy_tissue']},
+    flesh__into__gnr_infused_tumour : {
+        Interface   : ['tumour_tissue_plus_GNRs',   'healthy_tissue']},
+}
