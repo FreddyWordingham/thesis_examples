@@ -6,6 +6,6 @@
     tumour : {
         // attr: 'flesh__into__gnr_infused_tumour',    // !Free parameter!
         attr: 'flesh__into__plain_tumour',          // -Alternative
-        mesh: [["res/objs/thermal/tumour.obj"], {scale:1.0e-3}]
+        mesh: [["res/objs/thermal/tumour.obj"], {scale:1.0e-3, trans:[0.0e-3, 0.0e-3, -1.0e-3]}]
     }
 }
