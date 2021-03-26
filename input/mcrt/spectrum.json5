@@ -1,9 +1,9 @@
 {
     tree        : { There   : 'misc/tree/t5_d8.json5' },
-    grid        : { There   : 'misc/grid/5mm_201.json5' },
+    grid        : { There   : 'misc/grid/8mm_master.json5' },
     engine      : "Standard",
     sett        : { Here    : {
-        num_phot            : 1e7,
+        num_phot            : 1e6,
         block_size          : 1e3,
         bump_dist           : 1e-9,
         loop_limit          : 1e6,
@@ -12,22 +12,22 @@
     } },
     light       : { Here    : {
         power   : 1.0,
-        emit    : { Surface: [['res/objs/absorption/circle.obj'], { scale: 0.5e-3, trans:[-2.01e-3, 0.0, 0.0] } ] },
+        emit    : { Surface: [['res/objs/absorption/circle.obj'], { scale: 0.5e-3, trans:[0.0, 0.0, -1.999e-3] } ] },
         // spec    : { Here: {
         //     Uniform : [
         //         440e-9, 700e-9,
         //     ],
         // } },
-        spec    : { There   : 'misc/spectra/7_sf.json5' },
+        spec    : { There   : 'res/spectra/ppix.json5' },
         mat     : "air"
     } },
     mats        : { Here    : {
-        air     : { There    : 'misc/mats/misc/air.json5' },
-        black   : { There    : 'misc/mats/misc/black.json5' }
+        air     : { There    : 'res/mats/misc/air.json5' },
+        black   : { There    : 'res/mats/misc/black.json5' }
     } },
     attrs       : { Here    : {
             black   : { Interface       : ['black', 'air'] },
-            spectro : { Spectrometer    : ['main_spec', [400e-9, 1100e-9], 700] },
+            spectro : { Spectrometer    : ['main_spec', [100e-9, 1100e-9], 700] },
     } },
     surfs       : { Here    : {
         centerpiece : {
