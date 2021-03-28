@@ -2,7 +2,7 @@
     grid    : { There   : 'misc/grid/10mm_101.json5' },
     sett    : { Here    : {
         time            :   1800,       // Total integration time (s).
-        dumps           :   7,          // Intermediate outputs.
+        dumps           :   48,          // Intermediate outputs.
         d_block_size    :   1e4,        // Diffusion block size.
         r_block_size    :   1e3,        // Reaction block size.
         d_quality       :   0.1,        // Diffusion quality parameter (0-1).
@@ -11,12 +11,14 @@
     } },
     coeffs_values_sources   : { Here    : {
         "A"   :   [
-            "misc/map/nano.nc",
-            "misc/map/point_50.nc",
+            null,
+            // "res/maps/nano.nc",
+            // "res/maps/cube.nc",
+            "res/maps/cube.nc",
             null
         ],
     } },
-    multipliers : "misc/map/unit.nc",
+    multipliers : "res/maps/unit.nc",
     reactor: { Here     : [
         {
             rate        : [0.00111111111, [["A", 1]]],

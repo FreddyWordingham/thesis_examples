@@ -1,13 +1,13 @@
 {
     grid    : { There   : 'misc/grid/8mm_master.json5' },
     sett    : { Here    : {
-        time            :   10800.0,
-        dumps           :   98,
+        time            :   1800.0,
+        dumps           :   38,
         r_block_size    :   1e3,
         d_block_size    :   1e2,
         r_quality       :   0.8,
         d_quality       :   0.1,
-        min_time        :   1.0e-9,
+        min_time        :   1.0e-3,
     } },
     coeffs_values_sources   : { Here    : {
         "ala"   :   [
@@ -15,16 +15,11 @@
             "res/maps/ala_init.nc",
             null
         ],
-        "oxy"    :   [
-            "res/maps/oxy_diff.nc",
-            null,
-            "res/maps/oxy_source.nc"
-        ],
-        // "ppix"  :   [
-        //     "res/maps/ppix_diff.nc",
+        // "ppix"   :   [
+        //     "res/maps/ala_diff.nc",
         //     null,
         //     null
-        // ],
+        // ]
     } },
     multipliers : "res/maps/multipliers.nc",
     reactor: { There    : "misc/reactor/ppix.json5" }

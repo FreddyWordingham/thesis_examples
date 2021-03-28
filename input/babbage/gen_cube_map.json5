@@ -2,7 +2,7 @@
     ops: [
         [   "cube",                                     // Create new point cube.
             { Fill  : {
-                res     : [100, 100, 100],
+                res     : [101, 101, 101],
                 mins    : [ 25,  25,  25],
                 maxs    : [ 75,  75,  75]
             } }
