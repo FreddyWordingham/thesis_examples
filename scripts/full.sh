@@ -13,7 +13,8 @@ babbage input/ output/ babbage/build_ala_init_map.json5;
 mv output/ala_init.nc input/res/maps/;
 babbage input/ output/ babbage/build_ala_diff_map.json5;
 mv output/ala_diff.nc input/res/maps/;
-cartographer input output/cartographer/tumour cartographer/tumour.json5;
+
+cartographer input output/cartographer/deep_tumour cartographer/deep_tumour.json5;
 babbage input/ output/ babbage/build_multipliers_map.json5;
 mv output/multipliers.nc input/res/maps/;
 mv output/cartographer/tumour/map_\{tumour\}.nc input/res/maps/tumour.nc

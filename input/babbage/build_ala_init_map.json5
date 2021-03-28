@@ -7,7 +7,8 @@
         ],
         [
             "ala_init",
-            { Mult      : ["../output/cream_unit.nc", 7.17e20] }
+            // { Mult      : ["../output/cream_unit.nc", 7.17e20] } // Particles.
+            { Mult      : ["../output/cream_unit.nc", 1.12e-3] } // Moles.
         ],
         [
             "info",
