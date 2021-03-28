@@ -4,12 +4,12 @@
         reactants   : [["ala", 4]],
         products    : [["ppix", 1]],
     },
-    {   /// Char time: 15 min.
-        rate        : [1e3,   [["oxy", 1], ["udens", 1], ["ppix", 1]]],
+    {   /// Char time: 1 millisecond.
+        rate        : [1e6,   [["oxy", 1], ["udens", 1], ["ppix", 1]]],
         // rate        : [0.00111111111,   [["oxy", 1], ["udens", 1], ["ppix", 1]]],
         reactants   : [
             ["oxy",     1.0],
-            ["ppix",    0.44],
+            ["ppix",    0.01],
         ],
         products    : [
             ["radical", 1.0],
