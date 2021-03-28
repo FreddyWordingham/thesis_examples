@@ -1,6 +1,6 @@
 [
-    {   /// Char time: 60 min.
-        rate        : [0.0000065,  [["ala", 1]]],
+    {   /// Char time: 3 hrs.
+        rate        : [9.25925926e-5,  [["ala", 1]]],
         reactants   : [["ala", 4]],
         products    : [["ppix", 1]],
     }

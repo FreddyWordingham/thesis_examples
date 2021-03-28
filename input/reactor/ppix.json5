@@ -1,7 +1,7 @@
 {
     grid    : { There   : 'misc/grid/8mm_master.json5' },
     sett    : { Here    : {
-        time            :   10800.0,
+        time            :   1800.0,
         dumps           :   8,
         r_block_size    :   1e3,
         d_block_size    :   1e2,
