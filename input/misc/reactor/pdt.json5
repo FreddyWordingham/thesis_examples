@@ -1,11 +1,11 @@
 [
-    {   /// Char time: 15 min.
-        rate        : [0.00111111111,   [["ala", 1]]],
+    {   /// Char time: 3 hrs.
+        rate        : [9.25925926e-5,   [["ala", 1]]],
         reactants   : [["ala", 4]],
         products    : [["ppix", 1]],
     },
     {   /// Char time: 15 min.
-        rate        : [1.37174211e-9,   [["oxy", 1], ["udens", 1], ["ppix", 1]]],
+        rate        : [1e3,   [["oxy", 1], ["udens", 1], ["ppix", 1]]],
         // rate        : [0.00111111111,   [["oxy", 1], ["udens", 1], ["ppix", 1]]],
         reactants   : [
             ["oxy",     1.0],

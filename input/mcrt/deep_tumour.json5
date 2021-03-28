@@ -11,9 +11,9 @@
         roulette_barrels    : 8,
     } },
     light   : { There   : 'models/pdt/light.json5' },
-    mats    : { There   : 'models/thick_tumour/materials.json5' },
-    attrs   : { There   : 'models/thick_tumour/attributes.json5' },
-    surfs   : { There   : 'models/thick_tumour/surfaces.json5' },
+    mats    : { There   : 'models/deep_tumour/materials.json5' },
+    attrs   : { There   : 'models/deep_tumour/attributes.json5' },
+    surfs   : { There   : 'models/deep_tumour/surfaces.json5' },
     shifts_conc_spec  : [
         'res/maps/ppix_init.nc',
         {

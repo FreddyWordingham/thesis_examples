@@ -3,7 +3,7 @@
     grid        : { There   : 'misc/grid/8mm_master.json5' },
     engine      : "Fluorophore",
     sett        : { Here    : {
-        num_phot            : 1e6,
+        num_phot            : 1e7,
         block_size          : 1e3,
         bump_dist           : 1e-9,
         loop_limit          : 1e6,
@@ -11,9 +11,9 @@
         roulette_barrels    : 8,
     } },
     light   : { There   : 'models/pdt/light.json5' },
-    mats    : { There   : 'models/thick_tumour/materials.json5' },
-    attrs   : { There   : 'models/thick_tumour/attributes.json5' },
-    surfs   : { There   : 'models/thick_tumour/surfaces.json5' },
+    mats    : { There   : 'models/tumour/materials.json5' },
+    attrs   : { There   : 'models/tumour/attributes.json5' },
+    surfs   : { There   : 'models/tumour/surfaces.json5' },
     shifts_conc_spec  : [
         'res/maps/ppix_init.nc',
         {
