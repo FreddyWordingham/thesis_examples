@@ -5,7 +5,7 @@
         products    : [["ppix", 1]],
     },
     {   /// Char time: 1 millisecond.
-        rate        : [1e6,   [["oxy", 1], ["udens", 1], ["ppix", 1]]],
+        rate        : [1e4,   [["oxy", 1], ["udens", 1], ["ppix", 1]]],
         // rate        : [0.00111111111,   [["oxy", 1], ["udens", 1], ["ppix", 1]]],
         reactants   : [
             ["oxy",     1.0],
