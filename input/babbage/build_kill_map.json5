@@ -3,7 +3,7 @@
     ops: [
         [
             "tumour",
-            { Div   : ["../output/reactor/ppix/099_{radical}_diff.nc", 8.6e23] }
+            { Div   : ["../output/reactor/ppix/009_{radical}_diff.nc", 8.6e23] }
         ],
         [
             "info",
