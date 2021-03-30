@@ -3,7 +3,7 @@
     ops: [
         [
             "scaled_stratum_corneum",
-            { Mult      : ["../output/cartographer/skin/map_{stratum_corneum}.nc", 1.5e-9] }
+            { Mult      : ["../output/cartographer/skin/map_{stratum_corneum}.nc", 1.5e-10] }
         ],
         [
             "scaled_living_epidermis",
