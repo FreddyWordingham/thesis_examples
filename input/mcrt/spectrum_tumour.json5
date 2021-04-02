@@ -4,7 +4,7 @@
     // engine      : "Fluorophore",
     engine      : "Standard",
     sett        : { Here    : {
-        num_phot            : 1e6,
+        num_phot            : 1e7,
         block_size          : 1e4,
         bump_dist           : 1e-9,
         loop_limit          : 1e6,
