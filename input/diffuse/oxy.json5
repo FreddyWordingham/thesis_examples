@@ -1,5 +1,5 @@
 {
-    grid    : { There   : 'misc/grid/8mm_master.json5' },
+    grid    : { There   : 'misc/grid/16mm_master.json5' },
     sett    : { Here    : {
         time        :   3600,                           // Total integration time (s).
         dumps       :   7,                              // Intermient outputs.

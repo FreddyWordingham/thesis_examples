@@ -1,5 +1,5 @@
 {
-    grid    : { There   : 'misc/grid/8mm_master.json5' },
+    grid    : { There   : 'misc/grid/16mm_master.json5' },
     sett    : { Here    : {
         time        :   10800,
         dumps       :   98,
