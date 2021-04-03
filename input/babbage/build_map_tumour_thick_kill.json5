@@ -3,7 +3,7 @@
     ops: [
         [
             "critical",
-            { Div   : ["../output/reactor/ppix/thick/008_{radical}_diff.nc", 1.0e-9] }
+            { Div   : ["../output/reactor/pdt/thick/008_{radical}_diff.nc", 1.0e-9] }
         ],
         [
             "critical",

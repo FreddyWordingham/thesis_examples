@@ -28,4 +28,4 @@ cp output/reactor/ppix/shallow/008_\{ala\}_diff.nc input/res/maps/init_ala_shall
 mcrt input/ output/mcrt/shallow mcrt/tumour_shallow.json5;
 cp output/mcrt/shallow/shift_density.nc input/res/maps/udens_shallow.nc;
 reactor input/ output/reactor/pdt/shallow reactor/pdt_shallow.json5;
-babbage input/ output/ babbage/build_kill_map.json5;
+babbage input/ output/ babbage/build_map_tumour_shallow_kill.json5;
