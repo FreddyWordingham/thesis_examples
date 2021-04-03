@@ -29,3 +29,9 @@ mcrt input/ output/mcrt/shallow mcrt/tumour_shallow.json5;
 cp output/mcrt/shallow/shift_density.nc input/res/maps/udens_shallow.nc;
 reactor input/ output/reactor/pdt/shallow reactor/pdt_shallow.json5;
 babbage input/ output/ babbage/build_map_tumour_shallow_kill.json5;
+
+cartographer input output/cartographer/skin cartographer/skin.json5;
+cartographer input output/cartographer/cream cartographer/cream.json5;
+cartographer input output/cartographer/tumour_shallow cartographer/tumour_shallow.json5;
+cartographer input output/cartographer/tumour_thick cartographer/tumour_thick.json5;
+cartographer input output/cartographer/tumour_deep cartographer/tumour_deep.json5;

@@ -5,7 +5,8 @@
         block_size      : 1e3,
         bump_dist       : 1e-9,
         loop_limit      : 1e4,
-        caster          : { Radiant: 101 },
+        // caster          : { Radiant: 101 },
+        caster          : { Soft: [101, [0.0, 0.0, -0.5e-6], 0.01] },
         super_sampling  : { Uniform: [16, 16, 16] }
     } },
     surfs   : { There   : 'models/tumour/deep/surfaces.json5' },
