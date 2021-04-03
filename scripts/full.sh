@@ -17,7 +17,7 @@ cp output/diff_ala.nc input/res/maps/;
 
 #   Shallow tumour
 #   PpIX setup.
-cartographer input output/cartographer/shallow_tumour cartographer/shallow_tumour.json5;
+cartographer input output/cartographer/tumour_shallow cartographer/tumour_shallow.json5;
 babbage input/ output/ babbage/build_map_multipliers_tumour_shallow.json5;
 cp output/multipliers_shallow.nc input/res/maps/;
 reactor input/ output/reactor/ppix/shallow reactor/ppix_shallow.json5;

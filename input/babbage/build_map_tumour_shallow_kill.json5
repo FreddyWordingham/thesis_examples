@@ -1,0 +1,17 @@
+
+{
+    ops: [
+        [
+            "critical",
+            { Div   : ["../output/reactor/ppix/008_{radical}_diff.nc", 1.0e-9] }
+        ],
+        [
+            "critical",
+            { Clamp : ["../output/critical.nc", 0.0, 1.0e100] }
+        ],
+        [
+            "info",
+            { Info    : "../output/critical.nc" }
+        ]
+    ]
+}
