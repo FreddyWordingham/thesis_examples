@@ -1,0 +1,26 @@
+{
+    grid    : { There   : 'misc/grid/16mm_master.json5' },
+    sett    : { Here    : {
+        time            :   10800.0,
+        dumps           :   7,
+        r_block_size    :   1e3,
+        d_block_size    :   1e2,
+        r_quality       :   0.8,
+        d_quality       :   0.1,
+        min_time        :   1.0e-3,
+    } },
+    coeffs_values_sources   : { Here    : {
+        "ala"   :   [
+            "res/maps/ala_diff.nc",
+            "res/maps/ala_init.nc",
+            null
+        ],
+        // "ppix"   :   [
+        //     "res/maps/ala_diff.nc",
+        //     null,
+        //     null
+        // ]
+    } },
+    multipliers : "res/maps/thick_multipliers.nc",
+    reactor: { There    : "misc/reactor/ppix.json5" }
+}

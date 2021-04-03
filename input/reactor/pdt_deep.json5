@@ -12,12 +12,12 @@
     coeffs_values_sources   : { Here    : {
         "ala"   :   [
             "res/maps/ala_diff.nc",
-            "res/maps/ala_init_2.nc",
+            "res/maps/ala_init_deep.nc",
             null
         ],
         "ppix"   :   [
             null,
-            "res/maps/ppix_init.nc",
+            "res/maps/ppix_init_deep.nc",
             null
         ],
         "oxy"    :   [
@@ -27,10 +27,10 @@
         ],
         "udens"   :   [
             null,
-            "res/maps/udens.nc",
+            "res/maps/deep_udens.nc",
             null
         ],
     } },
-    multipliers : "res/maps/multipliers.nc",
+    multipliers : "res/maps/deep_multipliers.nc",
     reactor: { There    : "misc/reactor/pdt.json5" }
 }

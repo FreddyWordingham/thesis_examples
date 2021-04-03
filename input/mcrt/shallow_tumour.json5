@@ -15,7 +15,7 @@
     attrs   : { There   : 'models/shallow_tumour/attributes.json5' },
     surfs   : { There   : 'models/shallow_tumour/surfaces.json5' },
     shifts_conc_spec  : [
-        'res/maps/ppix_init.nc',
+        'res/maps/ppix_init_shallow.nc',
         {
             There: 'res/spectra/ppix.json5'
         }
