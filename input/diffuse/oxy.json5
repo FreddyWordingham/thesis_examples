@@ -6,6 +6,6 @@
         block_size  :   1e3,
         quality     :   0.2,                            // Quality parameter (0-1).
     } },
-    sources : "res/maps/oxy_source.nc",                 // Source/sink value map.
-    coeffs  : "res/maps/oxy_diff.nc",                   // Diffusion coefficents.
+    sources : "res/maps/source_oxy.nc",                 // Source/sink value map.
+    coeffs  : "res/maps/diff_oxy.nc",                   // Diffusion coefficents.
 }

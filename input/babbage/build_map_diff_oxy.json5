@@ -30,7 +30,7 @@
             { Mult      : ["../output/cartographer/skin/map_{subcutaneous_fat}.nc", 1.5e-9] }
         ],
         [
-            "oxy_diff",
+            "diff_oxy",
             { Sum     : [
                 "../output/scaled_stratum_corneum.nc",
                 "../output/scaled_living_epidermis.nc",
@@ -43,7 +43,7 @@
         ],
         [
             "info",
-            { Info    : "../output/oxy_diff.nc" }
+            { Info    : "../output/diff_oxy.nc" }
         ]
     ]
 }

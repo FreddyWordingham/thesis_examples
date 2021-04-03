@@ -6,13 +6,13 @@
             { Norm  : "../output/cartographer/cream/map_{cream}.nc" }
         ],
         [
-            "ala_init",
+            "init_ala",
             // { Mult      : ["../output/cream_unit.nc", 7.17e20] } // Particles.
             { Mult      : ["../output/cream_unit.nc", 1.12e-3] } // Moles.
         ],
         [
             "info",
-            { Info    : "../output/ala_init.nc" }
+            { Info    : "../output/init_ala.nc" }
         ]
     ]
 }
