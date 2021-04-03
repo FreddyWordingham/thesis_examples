@@ -49,7 +49,7 @@ reactor input/ output/reactor/pdt reactor/pdt.json5;
 babbage input/ output/ babbage/build_kill_map.json5;
 
 
-#   Thick tumour
+#   Deep tumour
 #   PpIX setup.
 cartographer input output/cartographer/cream cartographer/cream.json5;
 babbage input/ output/ babbage/build_ala_init_map.json5;
