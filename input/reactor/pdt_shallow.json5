@@ -11,26 +11,26 @@
     } },
     coeffs_values_sources   : { Here    : {
         "ala"   :   [
-            "res/maps/ala_diff.nc",
-            "res/maps/ala_init_shallow.nc",
+            "res/maps/diff_ala.nc",
+            "res/maps/init_ala_shallow.nc",
             null
         ],
         "ppix"   :   [
             null,
-            "res/maps/ppix_init_shallow.nc",
+            "res/maps/init_ppix_shallow.nc",
             null
         ],
         "oxy"    :   [
-            "res/maps/oxy_diff.nc",
-            "res/maps/oxy_init.nc",
-            "res/maps/oxy_source.nc"
+            "res/maps/diff_oxy.nc",
+            "res/maps/init_oxy.nc",
+            "res/maps/source_oxy.nc"
         ],
         "udens"   :   [
             null,
-            "res/maps/shallow_udens.nc",
+            "res/maps/udens_shallow.nc",
             null
         ],
     } },
-    multipliers : "res/maps/shallow_multipliers.nc",
+    multipliers : "res/maps/multipliers_shallow.nc",
     reactor: { There    : "misc/reactor/pdt.json5" }
 }

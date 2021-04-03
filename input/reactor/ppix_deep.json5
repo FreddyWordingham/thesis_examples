@@ -11,16 +11,16 @@
     } },
     coeffs_values_sources   : { Here    : {
         "ala"   :   [
-            "res/maps/ala_diff.nc",
-            "res/maps/ala_init.nc",
+            "res/maps/diff_ala.nc",
+            "res/maps/init_ala.nc",
             null
         ],
         // "ppix"   :   [
-        //     "res/maps/ala_diff.nc",
+        //     "res/maps/diff_ala.nc",
         //     null,
         //     null
         // ]
     } },
-    multipliers : "res/maps/deep_multipliers.nc",
+    multipliers : "res/maps/multipliers_deep.nc",
     reactor: { There    : "misc/reactor/ppix.json5" }
 }

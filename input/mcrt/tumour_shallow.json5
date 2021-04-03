@@ -11,11 +11,11 @@
         roulette_barrels    : 8,
     } },
     light   : { There   : 'models/pdt/light.json5' },
-    mats    : { There   : 'models/thick_tumour/materials.json5' },
-    attrs   : { There   : 'models/thick_tumour/attributes.json5' },
-    surfs   : { There   : 'models/thick_tumour/surfaces.json5' },
+    mats    : { There   : 'models/tumour/shallow/materials.json5' },
+    attrs   : { There   : 'models/tumour/shallow/attributes.json5' },
+    surfs   : { There   : 'models/tumour/shallow/surfaces.json5' },
     shifts_conc_spec  : [
-        'res/maps/ppix_init_thick.nc',
+        'res/maps/init_ppix_shallow.nc',
         {
             There: 'res/spectra/ppix.json5'
         }
