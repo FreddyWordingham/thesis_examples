@@ -2,6 +2,7 @@
 /input/output/
 /examples/output/
 /output/
+/data/
 /.vscode/
 **/*.rs.bk
 .DS_Store
