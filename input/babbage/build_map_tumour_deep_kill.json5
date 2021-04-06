@@ -2,20 +2,20 @@
 {
     ops: [
         [
-            "critical",
+            "critical_deep",
             { Div       : ["../data/reactor/pdt/deep/008_{radical}_diff.nc", 2.0e-10] }
         ],
         [
-            "diff",
-            { Remove    : ["res/maps/tumour_deep.nc", "../output/critical.nc"] }
+            "diff_deep",
+            { Remove    : ["res/maps/tumour_deep.nc", "../output/critical_deep.nc"] }
         ],
         [
-            "zone",
-            { Clamp     : ["../output/diff.nc", 0.0, 1.0] }
+            "kill_zone_deep",
+            { Clamp     : ["../output/diff_deep.nc", 0.0, 1.0] }
         ],
         [
             "info",
-            { Info    : "../output/zone.nc" }
+            { Info    : "../output/kill_zone_deep.nc" }
         ]
     ]
 }
