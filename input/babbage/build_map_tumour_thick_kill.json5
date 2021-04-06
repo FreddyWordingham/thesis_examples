@@ -2,7 +2,7 @@
     ops: [
         [
             "critical_thick",
-            { Div       : ["../data/reactor/pdt/thick/008_{radical}_diff.nc", 2.0e-10] }
+            { Div       : ["../data/reactor/pdt/thick/008_{radical}_diff.nc", 1.0e-11] }
         ],
         [
             "diff_thick",
