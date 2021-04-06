@@ -14,5 +14,5 @@
     dermis_to_tumour    : { Interface   : ['tumour',                    'dermis'] },
     DBND_to_tumour      : { Interface   : ['tumour',                    'deep_blood_net_dermis'] },
     SF_to_tumour        : { Interface   : ['tumour',                    'subcutaneous_fat'] },
-    spec                : { Spectrometer    : ['main_spec', [450.0e-9, 850e-9], 80] },
+    spec                : { Spectrometer    : ['main_spec', [450.0e-9, 850e-9], 800] },
 }
