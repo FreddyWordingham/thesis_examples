@@ -22,6 +22,7 @@ touch done_ala.txt
 cartographer input output/cartographer/tumour_shallow cartographer/tumour_shallow.json5;
 babbage input/ output/ babbage/build_map_multipliers_tumour_shallow.json5;
 cp output/multipliers_shallow.nc input/res/maps/;
+cp output/cartographer/tumour_shallow/map_\{tumour\}.nc input/res/maps/tumour_shallow.nc;
 reactor input/ output/reactor/ppix/shallow reactor/ppix_shallow.json5;
 cp output/reactor/ppix/shallow/008_\{ppix\}_diff.nc input/res/maps/init_ppix_shallow.nc
 cp output/reactor/ppix/shallow/008_\{ala\}_diff.nc input/res/maps/init_ala_shallow.nc
@@ -39,6 +40,7 @@ touch done_tumour_shallow.txt
 cartographer input output/cartographer/tumour_thick cartographer/tumour_thick.json5;
 babbage input/ output/ babbage/build_map_multipliers_tumour_thick.json5;
 cp output/multipliers_thick.nc input/res/maps/;
+cp output/cartographer/tumour_thick/map_\{tumour\}.nc input/res/maps/tumour_thick.nc;
 reactor input/ output/reactor/ppix/thick reactor/ppix_thick.json5;
 cp output/reactor/ppix/thick/008_\{ppix\}_diff.nc input/res/maps/init_ppix_thick.nc
 cp output/reactor/ppix/thick/008_\{ala\}_diff.nc input/res/maps/init_ala_thick.nc
@@ -56,6 +58,7 @@ touch done_tumour_thick.txt
 cartographer input output/cartographer/tumour_deep cartographer/tumour_deep.json5;
 babbage input/ output/ babbage/build_map_multipliers_tumour_deep.json5;
 cp output/multipliers_deep.nc input/res/maps/;
+cp output/cartographer/tumour_deep/map_\{tumour\}.nc input/res/maps/tumour_deep.nc;
 reactor input/ output/reactor/ppix/deep reactor/ppix_deep.json5;
 cp output/reactor/ppix/deep/008_\{ppix\}_diff.nc input/res/maps/init_ppix_deep.nc
 cp output/reactor/ppix/deep/008_\{ala\}_diff.nc input/res/maps/init_ala_deep.nc
