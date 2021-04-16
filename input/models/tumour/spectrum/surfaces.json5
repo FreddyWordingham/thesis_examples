@@ -68,6 +68,6 @@
 
     spectrometer    : {
         attr: 'spec',
-        mesh: [["res/objs/pdt/spectrometer.obj"], {scale:1.0e-3, trans:[0, 0, -0.5e-3]}]
+        mesh: [["res/objs/pdt/spectrometer.obj"], {scale:1.0e-3, trans:[0, 0, -1.20e-3]}]
     }
 }
