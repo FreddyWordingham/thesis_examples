@@ -69,3 +69,21 @@ cp output/mcrt/deep/shift_density.nc input/res/maps/udens_deep.nc;
 reactor input/ output/reactor/pdt/deep reactor/pdt_deep.json5;
 babbage input/ output/ babbage/build_map_tumour_deep_kill.json5;
 touch done_tumour_deep.txt
+
+
+#   Shaped tumour
+#   PpIX setup.
+cartographer input output/cartographer/tumour_shaped cartographer/tumour_shaped.json5;
+babbage input/ output/ babbage/build_map_multipliers_tumour_shaped.json5;
+cp output/multipliers_shaped.nc input/res/maps/;
+cp output/cartographer/tumour_shaped/map_\{tumour\}.nc input/res/maps/tumour_shaped.nc;
+reactor input/ output/reactor/ppix/shaped reactor/ppix_shaped.json5;
+cp output/reactor/ppix/shaped/008_\{ppix\}_diff.nc input/res/maps/init_ppix_shaped.nc
+cp output/reactor/ppix/shaped/008_\{ala\}_diff.nc input/res/maps/init_ala_shaped.nc
+
+#   PDT phase.
+mcrt input/ output/mcrt/shaped mcrt/tumour_shaped.json5;
+cp output/mcrt/shaped/shift_density.nc input/res/maps/udens_shaped.nc;
+reactor input/ output/reactor/pdt/shaped reactor/pdt_shaped.json5;
+babbage input/ output/ babbage/build_map_tumour_shaped_kill.json5;
+touch done_tumour_shaped.txt

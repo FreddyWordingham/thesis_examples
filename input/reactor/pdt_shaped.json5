@@ -2,7 +2,7 @@
     grid    : { There   : "misc/grid/16mm_master.json5" },
     sett    : { Here    : {
         time            :   1800.0,
-        dumps           :   98,
+        dumps           :   7,
         r_block_size    :   1e3,
         d_block_size    :   1e2,
         r_quality       :   0.8,
@@ -12,12 +12,12 @@
     coeffs_values_sources   : { Here    : {
         "ala"   :   [
             "res/maps/diff_ala.nc",
-            "res/maps/init_ala_shaped.nc",
+            "res/maps/init_ala_thick.nc",
             null
         ],
         "ppix"   :   [
             null,
-            "res/maps/init_ppix_shaped.nc",
+            "res/maps/init_ppix_thick.nc",
             null
         ],
         "oxy"    :   [
@@ -27,10 +27,10 @@
         ],
         "udens"   :   [
             null,
-            "res/maps/udens_shaped.nc",
+            "res/maps/udens_thick.nc",
             null
         ],
     } },
-    multipliers : "res/maps/multipliers_shaped.nc",
+    multipliers : "res/maps/multipliers_thick.nc",
     reactor: { There    : "misc/reactor/pdt.json5" }
 }

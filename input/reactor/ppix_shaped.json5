@@ -21,6 +21,6 @@
         //     null
         // ]
     } },
-    multipliers : "res/maps/multipliers_deep.nc",
+    multipliers : "res/maps/multipliers_shaped.nc",
     reactor: { There    : "misc/reactor/ppix.json5" }
 }

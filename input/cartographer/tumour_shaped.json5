@@ -8,6 +8,6 @@
         caster          : { Soft: [101, [0.0, 0.0, -1.0e-3], 0.01] },
         super_sampling  : { Uniform: [16, 16, 16] }
     } },
-    surfs   : { There   : 'models/shaped/surfaces.json5' },
-    attrs   : { There   : 'models/shaped/attributes.json5' }
+    surfs   : { There   : 'models/tumour/shaped/surfaces.json5' },
+    attrs   : { There   : 'models/tumour/shaped/attributes.json5' }
 }
