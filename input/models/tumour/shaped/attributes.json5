@@ -1,5 +1,6 @@
 {   // Surface attributes.
     air_to_SC           : { Interface   : ['stratum_corneum',           'air'] },
+    air_to_LE           : { Interface   : ['living_epidermis',          'air'] },
     SC_to_LE            : { Interface   : ['living_epidermis',          'stratum_corneum'] },
     LE_to_PD            : { Interface   : ['papillary_dermis',          'living_epidermis'] },
     PD_to_UBND          : { Interface   : ['upper_blood_net_dermis',    'papillary_dermis'] },

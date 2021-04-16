@@ -7,6 +7,10 @@
         attr: 'SC_to_LE',
         mesh: [["res/objs/skin/L1.obj"], {scale:1.0e-3}]
     },
+    // layer_1 : {
+    //     attr: 'air_to_LE',
+    //     mesh: [["res/objs/skin/L1.obj"], {scale:1.0e-3}]
+    // },
     layer_2 : {
         attr: 'LE_to_PD',
         mesh: [["res/objs/skin/L2.obj"], {scale:1.0e-3}]

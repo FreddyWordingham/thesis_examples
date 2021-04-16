@@ -9,7 +9,7 @@
         // rate        : [0.00111111111,   [["oxy", 1], ["udens", 1], ["ppix", 1]]],
         reactants   : [
             ["oxy",     1.0],
-            ["ppix",    0.01],
+            ["ppix",    0.4],
         ],
         products    : [
             ["radical", 1.0],
